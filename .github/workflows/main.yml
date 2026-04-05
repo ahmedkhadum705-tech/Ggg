@@ -13,7 +13,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Unzip project
-        run: unzip BurgerClubStaffTracker_v15.zip -d project
+        run: unzip BurgerClubStaffTracker_v14.zip -d project
 
       - name: Set up JDK 17
         uses: actions/setup-java@v4
